@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fact of the Day!"
+        android:textColor="#A0ffffff"
         android:textSize="24sp" />
 
     <TextView
@@ -24,7 +25,8 @@
         android:layout_centerHorizontal="true"
         android:text="Fact goes here"
         android:textSize="24sp"
-        android:id="@+id/facttext" />
+        android:id="@+id/facttext"
+        android:textColor="#A0ffffff" />
 
     <Button
         android:text="New Fact"
